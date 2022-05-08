@@ -1,0 +1,4 @@
+Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+ A=tuple(map(int, input().split()))
+ if len(A) !=10:                                                                  print ("Неверный размер кортежа")                                               s = 0                                                                           for item in A:                                                                   if abs(item)<5:                                                                  s += item                                                                      print (s)                                                                                                                          
